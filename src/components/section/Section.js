@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Chevron from '../../assets/chevron-bottom.png';
+// import Chevron from '../../assets/chevron-bottom.png';
 
 import './Section.scss';
 
@@ -19,7 +19,7 @@ export class Section extends Component {
         <div className="may-section-header card-header" onClick={this.toggle}>
           {label && <div className="may-section-header-label">{label}</div>}
           <div className={`may-section-header-chevron ${isOpen ? 'up' : 'down'}`}>
-            <img src={Chevron} alt="chevron arrow" />
+            {/*<img src={Chevron} alt="chevron arrow" />*/}
           </div>
         </div>
         {
