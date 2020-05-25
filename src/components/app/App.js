@@ -30,8 +30,6 @@ function App() {
             )
         })}
       {/*  donetodo: здесь нужно использовать UserCard по аналогии с Header, как пропсу user передать usersList[0]*/}
-
-
       <Section label="Users List">test</Section>
     </div>
   );
